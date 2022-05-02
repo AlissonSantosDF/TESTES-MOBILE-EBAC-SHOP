@@ -4,7 +4,7 @@ exports.config = {
     port: 4723,
     path:'/wd/hub',
     specs:[
-        '.test/specs/**/*.spec.js'
+        './test/specs/**/*.spec.js'
     ],
     framework:'mocha',
     capabilities:[
